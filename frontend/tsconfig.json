@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",                             // or "esnext" depending on your needs
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -12,14 +12,18 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",                         // Updated to ESNext
+    "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,                           // Changed to false if you want to generate output files
-    "jsx": "react-jsx"                         // Updated to react-jsx for React 17+
+    "noEmit": false,
+    "jsx": "react-jsx"
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/config",
+    "src/tests"
   ]
 }

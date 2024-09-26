@@ -1,5 +1,5 @@
 /*
- * Name         : apiService.ts
+ * Name         : ApiService.ts
  * Project      : Simple Invest
  * Description  : API script to send API requests to the server
  *
@@ -16,7 +16,6 @@ interface ApiResponse
   message?: string;
   error?: string;
 }
-
 
 const handleError = async (response: Response): Promise<void> =>
 {

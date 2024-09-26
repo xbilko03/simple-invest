@@ -20,13 +20,13 @@ function routeRequest($uri)
 {
     /* Map of available routes to their corresponding PHP scripts */
     $routes = [
-        '/trading/add.php',
-        '/trading/delete.php',
-        '/trading/authenticate.php',
-        '/trading/download.php',
-        '/trading/get.php',
-        '/trading/update.php',
-        '/trading/upload.php',
+        '/invest/add.php',
+        '/invest/delete.php',
+        '/invest/authenticate.php',
+        '/invest/download.php',
+        '/invest/get.php',
+        '/invest/update.php',
+        '/invest/upload.php',
     ];
 
     /* Check if the requested URI is valid */

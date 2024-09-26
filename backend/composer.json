@@ -1,0 +1,15 @@
+{
+    "name": "xbilko03/simple-invest",
+    "description": "This is a fullstack application for managing users, their transactions, and requests. The frontend (React) handles the user interface and interactions, while the backend (PHP) manages data and business logic.",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "trading/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

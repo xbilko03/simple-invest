@@ -1,2 +1,3 @@
-id;username;name;password;balance;role
-1;tester;Tester Test;12345;0;admin
+id;username;name;password;role
+1;tester;Tester Test;12345;admin
+1;tester2;Tester Test;12345;user
