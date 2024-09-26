@@ -22,7 +22,7 @@ export async function testFetch(type)
     const url = `${API_BASE_URL}get.php?type=${type}`;
     const response = await fetch(url, {headers: {'X-API-KEY': API_KEY},});
 
-    if (response.ok == false)
+    if (response.ok === false)
     {
       await handleError(response);
     }
